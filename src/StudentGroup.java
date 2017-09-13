@@ -64,36 +64,124 @@ public class StudentGroup implements StudentArrayOperation {
 	@Override
 	public void setStudent(Student student, int index) {
 		// Add your implementation here
+		if(size(a[i]<0||size(a[i])>=n){
+							throw IllegalArgumentException;
+
+		}
 	}
 
 	@Override
 	public void addFirst(Student student) {
 		// Add your implementation here
-	}
+		int b=Integer.parseInt(br.readLine());
+		a[n-1]=b;
+		for(i=0;i<=n;i++)
+{
+	if(a[i]=null){				throw IllegalArgumentException;
+
+		}
+}
+
+		}
 
 	@Override
 	public void addLast(Student student) {
 		// Add your implementation here
+		
+		int c=Integer.parseInt(br.readLine());
+		for(i=0;i<=n;i++)
+{
+	if(a[i]=a[c]){
+						throw IllegalArgumentException;
+
+		}
+}
+if(size(a[i]<0||size(a[i])>=n){
+							throw IllegalArgumentException;
+
+		}
 	}
 
 	@Override
 	public void add(Student student, int index) {
 		// Add your implementation here
-	}
+				int a=Integer.parseInt(br.readline());
+a[0]=a;
+for(i=0;i<=n;i++)
+{
+	if(a[i]==null){
+		
 
+	throw IllegalArgumentException;
+	}
+	}
 	@Override
 	public void remove(int index) {
 		// Add your implementation here
+		int d=Integer.parseInt(br.readLine());
+	for(i=0;i<=n;i++)
+{
+	if(a[i]==d)
+	{
+		a[i]=null;
+		}
+		
+}
+	throw IllegalArgumentException;
+	}
+	else if(a[i]==null){
+		
+
+	throw IllegalArgumentException;
+	}
+	else{
+			system.out.println("student not exist");
+		}
 	}
 
 	@Override
 	public void remove(Student student) {
 		// Add your implementation here
+		int d=Integer.parseInt(br.readLine());
+	for(i=0;i<=n;i++)
+{
+	if(a[i]!=a[d])
+	{
+		a[i]=null;
+		}
+		
+}
+	throw IllegalArgumentException;
+	}
+	else if(a[i]==null){
+		
+
+	throw IllegalArgumentException;
+	}
+	
+	
 	}
 
 	@Override
 	public void removeFromIndex(int index) {
 		// Add your implementation here
+		int e=Integer.parseInt(br.readLine());
+	for(i=0;i<=n;i++)
+{
+	if(a[i]!=e)
+	{
+		a[i]=null;
+		}
+		
+}
+	throw IllegalArgumentException;
+	}
+	else if(a[i]==null){
+		
+
+	throw IllegalArgumentException;
+	}
+	
 	}
 
 	@Override
